@@ -76,10 +76,11 @@ app.post("/send/mail", async (req, res) => {
   try {
     console.log("Attempting to send email...");
     await sendEmail({
-      email: "p3030306@gmail.com",
+      email: "noreply.developers1@gmail.com",
       subject: "GYM WEBSITE CONTACT",
       message,
       userEmail: email,
+      userName:name,
     });
     res.status(200).json({
       success: true,

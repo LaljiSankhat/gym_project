@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-        Designed And Developed By PRIYA
+        Designed And Developed By Strange Coders
     </footer>
   )
 }
